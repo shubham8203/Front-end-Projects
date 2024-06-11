@@ -1,0 +1,85 @@
+body{
+   background:url(bg1.jpg) ;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+
+
+}
+.container{
+        
+    height:300px;
+    width:400px;
+    background-color: rgb(211, 195, 127);
+    border-radius: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:50px;
+    margin-top:10px;
+    border:5px solid black;
+
+}
+#timer{
+    font-size:70px;
+    border:2px solid black;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius:10px;
+    box-shadow: 5px 5px rgb(72, 72, 72);
+}
+#btns{
+    height:40px;
+    width:max-content;
+    display: flex;
+    gap:50px;
+
+}
+#startStopbtn{
+      height:50px;
+      width:50px;
+      background-repeat: no-repeat;
+      background-size: cover;
+     
+      border-radius: 5px;
+      cursor:pointer;
+
+}
+.play{
+    background-image: url(play-button-icon-png.png);
+    background-color: rgb(14, 236, 14);
+    
+}
+.pause{
+    background-image: url(pause_icon.png);
+    background-color: rgb(223, 20, 20);
+}
+
+#resetbtn{
+    background: url(reset.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(240, 23, 23);
+    border-radius: 5px;
+    height:50px;
+    width:50px;
+    cursor:pointer;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+}
+h1{
+    font-weight: bold;
+    font-size:50px;
+    color:rgb(208, 249, 83)
+}
+
